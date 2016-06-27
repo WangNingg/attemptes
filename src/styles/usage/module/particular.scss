@@ -1,0 +1,130 @@
+.m-particular{
+  @include flexbox();
+  @include flex-direction(column);
+  width: 100%;
+  height: 100%;
+  .p-container{
+    @include flex(1);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .m-part{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      overflow: hidden;
+      header{
+        width: 100%;
+        height: .44rem;
+        background: #1aaaf1;
+        ul{
+          @include flexbox();
+          height: 100%;
+          width: 100%;
+          li{
+            height: 100%;
+            width: 100%;
+            color: #fff;
+            font-size: .16rem;
+            &:nth-child(1),&:nth-child(3){
+              width: .5rem;
+              line-height: .44rem;
+              text-align: center;
+            }
+            &:nth-child(2){
+              @include flex(1);
+              line-height: .44rem;
+              text-align: center;
+            }
+          }
+        }
+      }
+      section{
+        @include flex(1);
+        width: 100%;
+        background: #fff;
+        ul{
+          width: 100%;
+          margin-top: .03rem;
+          @include flexbox();
+          li{
+            &:nth-child(2),&:nth-child(4),&:nth-child(6) {
+              @include flex(1);
+              @include box-sizing(border-box);
+              @include border(1px, #dcdcdc);
+              img {
+                display: block;
+                width: 100%;
+              }
+              &.hide{
+                visibility: hidden;
+              }
+          }
+            &:nth-child(3),&:nth-child(5) {
+              width: .05rem;
+            }
+            &:nth-child(1),&:nth-child(7) {
+              width: .03rem;
+            }
+          }
+        }
+        .up {
+            transform: rotate(360deg) !important;
+            -webkit-transform: rotate(360deg) !important;
+        }
+        .foot {
+            text-align: center;
+            height: .3rem;
+            line-height: .3rem;
+        }
+        .foot img {
+            display: inline-block;
+            /*transform: rotate(0deg);*/
+            /*-webkit-transform: rotate(0deg);*/
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+            height: .15rem;
+            width: .15rem;
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
+      }
+    }
+  }
+  footer{
+    width: 100%;
+      height: .44rem;
+      ul{
+        @include flexbox();
+        height: 100%;
+        width: 4rem;
+        li{
+          @include flex(1);
+          width: 100%;
+          font-size: .16rem;
+          color: #fff;
+          width: .8rem;
+          line-height: .44rem;
+          text-align: center;
+          &:nth-child(1){
+            background: #fe8193;
+          }
+          &:nth-child(2){
+            background: #1aaaf1;
+          }
+          &:nth-child(3){
+            background: #f7d92d;
+          }
+          &:nth-child(4){
+            background: #c381ef;
+          }
+          &:nth-child(5){
+            background: #fe8193;
+          }
+       }
+     }
+   }
+}

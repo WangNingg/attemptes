@@ -1,0 +1,262 @@
+.m-index{
+  width: 100%;
+  height: 100%;
+  .l-container{
+    .set-container{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      width: 100%;
+      header{
+        width: 100%;
+        height: .6rem;
+        background: #17a9f2;
+        ul{
+          @include flexbox();
+          width: 100%;
+          li{
+            font-size: .16rem;
+            color: #fff;
+            line-height: .6rem;
+            text-align: center;
+            &:nth-child(1){
+              width: .7rem;
+              height: .7rem;
+              img{
+                width: .5rem;
+                height: .5rem;
+              }
+            }
+            &:nth-child(2){
+              width: .34rem;
+            }
+            &:nth-child(4){
+              width: .9rem;
+            }
+
+            &:nth-child(3){
+              @include flex(1);
+            }
+          }
+        }
+      }
+      section{
+        @include flex(1);
+        width: 100%;
+        background: #fff;
+        ul{
+          width: 100%;
+          height: .5rem;
+          @include box-sizing(border-box);
+          &:nth-child(1){
+            width: 100%;
+            background: #f5fafd;
+
+            li{
+              &:nth-child(1){
+                font-size: .15rem;
+                color: #11a7f3;
+                width: 1.1rem;
+                line-height: .5rem;
+                text-align: center;
+              }
+            }
+          }
+          &:nth-child(2){
+            width: 100%;
+            height: .5rem;
+            background: #fff;
+            @include flexbox;
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0, #f0f0f0);
+            li{
+              line-height: .5rem;
+              text-align: center;
+              &:nth-child(1){
+                width: .5rem;
+                img{
+                  width: .27rem;
+                  height: .27rem;
+                }
+              }
+              &:nth-child(2){
+                font-size: .14rem;
+                color:#909090;
+              }
+              &:nth-child(3){
+                @include flex(1);
+              }
+              &:nth-child(4){
+                width: .7rem;
+                line-height: .5rem;
+                text-align: center;
+                i{
+                  font-size: .34rem;
+                  color: #e5e5e5;
+                }
+              }
+            }
+          }
+          &:nth-child(3){
+            width: 100%;
+            height: .5rem;
+            background: #fff;
+            @include flexbox;
+
+            li{
+              line-height: .5rem;
+              text-align: center;
+              &:nth-child(1){
+                width: .5rem;
+                img{
+                  width: .27rem;
+                  height: .27rem;
+                }
+              }
+              &:nth-child(2){
+                font-size: .14rem;
+                color:#909090;
+              }
+              &:nth-child(3){
+                @include flex(1);
+              }
+              &:nth-child(4){
+                width: .7rem;
+                line-height: .5rem;
+                text-align: center;
+                i{
+                  font-size: .34rem;
+                  color: #e5e5e5;
+                }
+              }
+            }
+          }
+          &:nth-child(4){
+            width: 100%;
+            background: #f5fafd;
+
+            li{
+              &:nth-child(1){
+                font-size: .15rem;
+                color: #11a7f3;
+                width: .8rem;
+                line-height: .5rem;
+                text-align: center;
+              }
+            }
+          }
+          &:nth-child(5){
+            width: 100%;
+            height: .5rem;
+            @include flexbox();
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0, #f0f0f0);
+            li{
+              line-height: .5rem;
+              text-align: center;
+              font-size: .14rem;
+              color: #909090;
+              &:nth-child(1){
+                width: .75rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+              }
+              &:nth-child(3){
+                width: .8rem;
+              }
+              &:nth-child(4){
+                width: .3rem;
+                img{
+                  width: .1rem;
+                  height: .1rem;
+                }
+              }
+            }
+          }
+          &:nth-child(6){
+            width: 100%;
+            height: .5rem;
+            @include flexbox();
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0, #f0f0f0);
+            li{
+              line-height: .5rem;
+              text-align: center;
+              font-size: .14rem;
+              color: #909090;
+              &:nth-child(1){
+                width: .75rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+              }
+              &:nth-child(3){
+                width: .5rem;
+              }
+              &:nth-child(4){
+                width: .3rem;
+                img{
+                  width: .1rem;
+                  height: .1rem;
+                }
+              }
+            }
+          }
+          &:nth-child(7){
+            width: 100%;
+            height: .5rem;
+            @include flexbox();
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0, #f0f0f0);
+            li{
+              line-height: .5rem;
+              text-align: center;
+              font-size: .14rem;
+              color: #909090;
+              &:nth-child(1){
+                width: .75rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+              }
+              &:nth-child(3){
+                width: .3rem;
+                img{
+                  width: .1rem;
+                  height: .1rem;
+                }
+              }
+            }
+          }
+          &:nth-child(8){
+            width: 100%;
+            height: .5rem;
+            @include flexbox();
+            li{
+              line-height: .5rem;
+              text-align: center;
+              font-size: .14rem;
+              color: #909090;
+              &:nth-child(1){
+                width: .46rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+              }
+              &:nth-child(3){
+                width: .3rem;
+                img{
+                  width: .1rem;
+                  height: .1rem;
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+}

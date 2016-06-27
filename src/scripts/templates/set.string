@@ -1,0 +1,57 @@
+<div class="set-container">
+  <header>
+   <ul>
+     <li><img src="/attempt/images/wd_tx_pic.png"/></li>
+     <li>游客</li>
+     <li></li>
+     <li action-type="login">登录</li>
+   </ul>
+  </header>
+  <section>
+    <ul>
+      <li>分享账号绑定</li>
+      <li></li>
+    </ul>
+    <ul>
+      <li><img src="/attempt/images/xl_ico.png"</li>
+      <li>新浪微博</li>
+      <li></li>
+      <li class="aui-list-view-cell aui-switch-body">
+        
+        <input type="checkbox" class="aui-switch aui-switch-success aui-pull-right" checked>
+      </li>
+    </ul>
+    <ul>
+      <li><img src="/attempt/images/wd_qqkj_ico.png"></li>
+      <li>腾讯微博</li>
+      <li></li>
+      <li><i class="yo-ico">&#xe602;</i></li>
+    </ul>
+    <ul>
+      <li>系统设置</li>
+      <li></li>
+    </ul>
+    <ul>
+      <li>清理缓存</li>
+      <li></li>
+      <li>(无缓存软件)</li>
+      <li><img src="/attempt/images/set_arrow_ico1.png"></li>
+    </ul>
+    <ul>
+      <li>检测版本</li>
+      <li></li>
+      <li>V2.2.2</li>
+      <li><img src="/attempt/images/set_arrow_ico1.png"></li>
+    </ul>
+    <ul>
+      <li>客户反馈</li>
+      <li></li>
+      <li><img src="/attempt/images/set_arrow_ico1.png"></li>
+    </ul>
+    <ul>
+      <li>关于</li>
+      <li></li>
+      <li><img src="/attempt/images/set_arrow_ico1.png"></li>
+    </ul>
+  </section>
+</div>

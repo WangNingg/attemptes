@@ -1,0 +1,19 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "http://qitu.fj118114.cn/upload/slt_20151012172828960.jpg"
+    },
+    {
+      "imgsrc": "http://qitu.fj118114.cn/upload/slt_20151012155146611.jpg"
+    },
+    {
+      "imgsrc": "http://qitu.fj118114.cn/upload/slt_20151013091122230.jpg"
+    },
+    {
+      "imgsrc": "http://qitu.fj118114.cn/upload/slt_20151013120844174.jpg"
+    }
+  ]
+}

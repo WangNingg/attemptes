@@ -1,0 +1,45 @@
+<div class="m-particular">
+  <div class="p-container">
+    <div class="m-part">
+      <header>
+        <ul>
+          <li action-type="back" class="yo-ico">&#xe679;<span>返回</span></li>
+          <li>热门案例</li>
+          <li></li>
+        </ul>
+      </header>
+      <section spa-widget="scroll" data-scroll-id="secScroll">
+        <div>
+          <ul ms-repeat-value="navlist">
+            <li></li>
+            <li action-type="goto.particular">
+              <img ms-src="value[0].imgsrc">
+            </li>
+            <li></li>
+            <li  action-type="goto.particular" ms-class-hide="!value[1]">
+              <img ms-src="value[1].imgsrc">
+            </li>
+            <li></li>
+            <li  action-type="goto.particular" ms-class-hide="!value[2]">
+              <img ms-src="value[2].imgsrc">
+            </li>
+            <li></li>
+          </ul>
+          <div class="foot">
+              <img src="/attempt/images/arrow.png"/>
+              <span>上拉加载更多...</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <footer class="m-list" spa-widget="scroll" data-scroll-id="listScroll">
+    <ul>
+      <li action-type="goto.particular">热门案例</li>
+      <li action-type="goto.particular">酒店旅社</li>
+      <li action-type="goto.particular">美容时尚</li>
+      <li action-type="goto.particular">餐饮</li>
+      <li action-type="goto.particular">茶庄</li>
+    </ul>
+  </footer>
+</div>

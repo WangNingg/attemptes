@@ -1,0 +1,54 @@
+<div class="m-home">
+  <section spa-widget="scroll" data-scroll-id="secScroll">
+    <div>
+      <header>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/attempt/images/2.png"></div>
+                <div class="swiper-slide"><img src="/attempt/images/2.png"></div>
+                <div class="swiper-slide"><img src="/attempt/images/2.png"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+      </header>
+      <nav  class="m-nav" spa-widget="scroll" data-scroll-id="navScroll">
+        <ul>
+          <li action-type="goto.particular">热门案例</li>
+          <li action-type="goto.particular">产品推广</li>
+          <li action-type="goto.particular">企业宣传</li>
+          <li action-type="goto.particular">人才招聘</li>
+          <li action-type="goto.particular">节日活动</li>
+          <li action-type="goto.particular">个人</li>
+          <li action-type="goto.particular">媒体库</li>
+        </ul>
+      </nav>
+
+    <div>
+      <ul ms-repeat-value="livelist">
+        <li></li>
+        <li action-type="goto.detail">
+          <img ms-src="value[0].imgsrc">
+          <b ms-text="value[0].title"></b>
+        </li>
+        <li></li>
+        <li  action-type="goto.detail" ms-class-hide="!value[1]">
+          <img ms-src="value[1].imgsrc">
+          <b ms-text="value[1].title"></b>
+        </li>
+        <li></li>
+        <li  action-type="goto.detail" ms-class-hide="!value[2]">
+          <img ms-src="value[2].imgsrc">
+          <b ms-text="value[2].title"></b>
+        </li>
+        <li></li>
+      </ul>
+      <div class="foot">
+          <img src="/attempt/images/arrow.png"/>
+          <span>上拉加载更多...</span>
+      </div>
+    </div>
+
+    </div>
+  </section>
+</div>

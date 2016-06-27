@@ -1,0 +1,12 @@
+//引入spa类库
+require('./lib/spa.min.js');
+require('./lib/swiper-3.3.1.min.js');
+require('./lib/swiper.animate1.0.2.min.js');
+//引入views
+require('./views/collect.js');
+require('./views/set.js');
+require('./views/home.js');
+require('./views/detail.js');
+require('./views/particular.js');
+require('./views/login.js');
+require('./views/index.js');

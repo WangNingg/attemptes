@@ -1,0 +1,23 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/attempt/images/3.jpg",
+      "title": "美食西餐"
+    },
+    {
+      "imgsrc": "/attempt/images/4.jpg",
+      "title": "幼儿园招生"
+    },
+    {
+      "imgsrc": "/attempt/images/5.jpg",
+      "title": "店长主推"
+    },
+    {
+      "imgsrc": "/attempt/images/5.jpg",
+      "title": "店长主推"
+    }
+  ]
+}
